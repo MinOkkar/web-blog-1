@@ -6,21 +6,11 @@ body {
 }
 
 h1 {
-  border: #333 solid;
   color: black;
   margin: 0px;
   font-size: 4rem;
 }
-span {
-  background-color: #333;
-  color: white;
-  transition: 0.3s ease-in-out;
-}
 
-span:hover {
-  background-color: white;
-  color: #333;
-}
 header,
 nav,
 main,
