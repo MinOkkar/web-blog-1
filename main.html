@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Min <span>Okkar</span></h1>
+      <p>Sharing my thoughts on web development, technology, and more</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="menu" role="navigation">
+      <a href="#home" tabindex="1">Home</a>
+      <a href="#about" tabindex="2">About</a>
+      <a href="#contact" tabindex="3">Contact</a>
+    </nav>
+
+    <main id="main" tabindex="0">
+      <!-- Blog posts section -->
+      <section aria-labelledby="blog-posts">
+        <h2 id="blog-posts">Blog Posts</h2>
+        <article id="HTML">
+          <h3>Understanding Semantic HTML</h3>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> by
+            Okkar
+          </p>
+          <p>
+            Semantic HTML refers to the use of HTML elements that convey the
+            meaning and structure of the content they contain. These elements
+            provide context, making the code more understandable for developers,
+            search engines, and assistive technologies like screen readers.
+          </p>
+          <a href="#read-more" tabindex="4">Read more</a>
+        </article>
+        <article id="ARIA">
+          <h3>Tips for Using ARIA Attributes</h3>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> by
+            Okkar
+          </p>
+          <p>
+            Semantic HTML refers to the use of HTML elements that convey the
+            meaning and structure of the content they contain. These elements
+            provide context, making the code more understandable for developers,
+            search engines, and assistive technologies like screen readers.
+          </p>
+          <a href="#read-more" tabindex="5">Read more</a>
+        </article>
+        <article id="3">
+          <h3>I think i like when it rains</h3>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> by
+            Okkar
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            commodi assumenda consequatur veritatis vel sed quidem at hic, sit
+            distinctio, non eius dignissimos ipsum. Voluptatibus, asperiores
+            accusamus. Earum, facere quos.
+          </p>
+          <a href="#read-more" tabindex="5">Read more</a>
+        </article>
+      </section>
+
+      <!-- Sidebar -->
+      <aside>
+        <h2>menu</h2>
+        <hr />
+        <nav id="aside-menu" role="blog-navigation">
+          <a href="#HTML" tabindex="1">HTLML</a>
+          <a href="#ARIA" tabindex="2">CSS</a>
+          <a href="#3" tabindex="3">Javascript</a>
+        </nav>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" role="contentinfo">
+      <p>&copy; 2025 My Personal Blog</p>
+      <a href="https://twitter.com" tabindex="6">Twitter</a>
+      <a href="https://facebook.com" tabindex="7">Facebook</a>
+      <a href="mailto:me@example.com" tabindex="8">Email Me</a>
+    </footer>
+  </body>
+</html>
