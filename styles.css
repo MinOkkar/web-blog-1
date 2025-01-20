@@ -1,3 +1,8 @@
+:root {
+  --black: #333;
+  --white: #ffffff;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -6,7 +11,7 @@ body {
 }
 
 h1 {
-  color: black;
+  color: var(--black);
   margin: 0px;
   font-size: 4rem;
 }
@@ -22,8 +27,8 @@ header {
   flex-direction: column;
 }
 #menu {
-  background: #444;
-  color: white;
+  background: var(--black);
+  color: var(--white);
   gap: 1em;
   display: flex;
 }
@@ -41,21 +46,21 @@ section {
   margin-left: 20px;
 }
 article {
-  border: #333 solid;
+  border: var(--black) solid;
   padding: 20px;
   margin-top: 20px;
 }
 .post-meta {
-  color: white;
-  background-color: #333;
+  color: var(--white);
+  background-color: var(--black);
   padding: 10px;
 }
 aside {
-  background: #f4f4f4;
+  background: var(--white);
   padding: 1em;
   width: 20%;
-  border: solid #333;
-  background-color: #333;
+  border: solid var(--black);
+  background-color: var(--black);
 }
 #aside-menu {
   display: flex;
@@ -68,29 +73,29 @@ nav > a {
 }
 nav > a:hover {
   transform: scale(1.5);
-  background-color: black;
+  background-color: var(--black);
 }
 h3 {
   font-size: 3rem;
 }
 aside h2 {
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 #aside-menu a {
   margin-bottom: 20px;
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 footer {
-  background: #333;
-  color: white;
+  background: var(--black);
+  color: var(--white);
   text-align: center;
   padding: 1em 0;
 }
 footer a {
-  color: white;
+  color: var(--white);
   transition: 0.3s ease-in-out;
 }
 
@@ -114,7 +119,7 @@ footer a {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: var(--black);
     padding: 10px 0;
   }
   #aside-menu {
