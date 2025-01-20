@@ -125,9 +125,15 @@ footer a {
   #aside-menu {
     display: flex;
     flex-direction: row;
+    padding: 1px;
   }
   #aside-menu > a {
-    margin: 10px;
+    margin: 0px;
+    font-size: 0.8rem;
+  }
+  aside > h2,
+  aside > hr {
+    display: none;
   }
   hr {
     margin: 20px;
