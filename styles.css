@@ -31,9 +31,12 @@ header {
   color: var(--white);
   gap: 1em;
   display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #menu a {
-  color: white;
+  color: var(--white);
   text-decoration: none;
 }
 main {
